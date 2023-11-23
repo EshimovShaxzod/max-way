@@ -1,0 +1,32 @@
+/* SWEETS TYPES STYLE START */
+.swetsTypes{
+    padding-top: 80px;
+
+    &-list{
+        padding-top: 40px;
+        margin-bottom: 140px;
+        border-top: 1px solid #ddd;
+    }
+
+    &-list__item{
+        &-btn{
+            padding: 15px 27px;
+            border-radius: 27px;
+            color: $colorPrimary;
+            font-size: 20px;
+            font-weight: 400;
+            border: none;
+            background-color: #fff;
+        }
+
+        &-btn:nth-child(8){
+            background-color: #F5F5F5; 
+        }
+    }
+}
+
+.active1{
+    color: #fff;
+    background-color: #F1B301;
+}
+/* SWEETS TYPES STYLE END */
