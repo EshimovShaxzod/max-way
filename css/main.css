@@ -1,0 +1,124 @@
+/* VARIABLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  flex-grow: 1;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* HEADER STYLE START */
+.site-header {
+  width: 100%;
+  padding: 28px 0;
+  background-image: linear-gradient(to right, #fff 56%, #800A7A 44%);
+}
+.site-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header__nav-list {
+  display: flex;
+  align-items: center;
+}
+.site-header__nav-item:not(:nth-child(3)) {
+  margin-right: 40px;
+}
+.site-header__nav-item:nth-child(3) {
+  margin-right: 78px;
+}
+.site-header__nav-item:nth-child(4) {
+  display: flex;
+  align-items: center;
+}
+.site-header__nav-item:nth-child(5) {
+  display: flex;
+  align-items: center;
+  padding-left: 39px;
+  border-left: 2px solid #9c9c9c;
+}
+.site-header__nav-call__logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.site-header__nav-num span {
+  display: inline-block;
+  margin-bottom: 9px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+.site-header__nav-num h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.site-header__nav-lock__logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.site-header__nav-link {
+  color: #222124;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-price__title {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav-price__num {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* HEADER STYLE END *//*# sourceMappingURL=main.css.map */
