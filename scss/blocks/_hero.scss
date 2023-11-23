@@ -1,0 +1,79 @@
+/* HERO STYLE START */
+.hero{
+    width: 100%;
+    padding: 85px 0 0 0;
+    background-color: #fff;
+    background-image:  url("../assets/images/hero-bg.png"), linear-gradient(to right, #fff 56%, #800A7A 44%);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 270px) 0 , 100% 100%;
+    
+    &-content{
+        width: 100%;
+        max-width: 435px;
+        
+        &__title{
+            margin-bottom: 14px;
+            color: $colorPrimary;
+            font-size: 80px;
+            font-weight: 900;
+            line-height: 85px;
+        }
+        
+        &__desc{
+            margin-bottom: 66px;
+            color: $colorPrimary;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+        }
+    }
+    
+    &-product{
+        
+        &__info{
+            width: 100%;
+            max-width: 255px;
+            height: 200px;
+            
+            &-btn{
+                padding: 11px 23px;
+                margin: 20px 0 0 31px;
+                color: #FFF;
+                font-size: 16px;
+                font-weight: 500;
+                border-radius: 19px;
+                background: rgba(255, 255, 255, 0.20);
+            }
+
+            &-desc{
+                padding: 46px 0 20px 40px;
+                color: #E76A06;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 32px;
+            }
+
+            &-title{
+                padding: 46px 0 20px 40px;
+                color: #E76A06;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 32px;
+            }
+        }
+        
+        &__info:first-child{
+            background-image: url("../assets/images/hero-pitsa.png");
+            background-size: cover;
+            margin-right: 41px;
+        }
+
+        &__info:last-child{
+            background-image: url("../assets/images/hero-kombo.png");
+            background-size: cover;
+        }
+        
+    }
+    
+}
+/* HERO STYLE END */
