@@ -44,7 +44,7 @@
                 border-radius: 19px;
                 background: rgba(255, 255, 255, 0.20);
             }
-
+            
             &-desc{
                 padding: 46px 0 20px 40px;
                 color: #E76A06;
@@ -52,7 +52,7 @@
                 font-weight: 700;
                 line-height: 32px;
             }
-
+            
             &-title{
                 padding: 46px 0 20px 40px;
                 color: #E76A06;
@@ -67,7 +67,7 @@
             background-size: cover;
             margin-right: 41px;
         }
-
+        
         &__info:last-child{
             background-image: url("../assets/images/hero-kombo.png");
             background-size: cover;
@@ -77,3 +77,50 @@
     
 }
 /* HERO STYLE END */
+
+/*  HERO RESPONSIVE  STYLE START */ 
+@media only screen and (max-width: 576px){
+    
+    .hero{
+        padding-top: 300px;
+        background-image:  url("../assets/images/hero-bg.png"), url("../assets/images/hero-bg2.png");
+        background-repeat: no-repeat;
+        background-position: calc(50%) 0, calc(50%) 130px;
+        background-size: contain, contain;
+
+        &-product{
+            flex-direction: column;
+            align-items: center;
+
+            &__info{
+                width: 100%;
+            }
+
+            &__info:first-child{
+                margin-right: 0;
+                margin-bottom: 30px;
+            }
+        }
+        
+        &-content{
+            
+            &__title{
+                margin-bottom: 12px;
+                text-align: center;
+                color: #FFF;
+                font-size: 36px;
+                line-height: normal; 
+            }
+            
+            &__desc{
+                padding-bottom: 35px;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: normal; 
+                text-align: center;
+            }
+        }
+    }
+}
+/*  HERO RESPONSIVE  STYLE END */ 

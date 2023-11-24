@@ -9,6 +9,10 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    &__menu-btn{
+        display: none;
+    }
     
     &__nav-list{
         display: flex;
@@ -86,5 +90,36 @@
     }
 }
 
+/*  HEADER RESPONSIVE STYLE START */
+@media only screen and (max-width: 576px){
+
+    .site-header{
+        background-image: linear-gradient(to top, #fff 56%, #fff 44%);
+
+        &__logo-img{
+            width: 51px;
+            height: 54px;
+        }
+
+       &__nav{
+        display: none;
+       }
+
+       &__menu-btn{
+        display: block;
+        width: 24px;
+        height: 24px;
+        color: #282863;
+        border: none;
+        background-color: transparent;
+
+        & i{
+            font-size: 30px;
+        }
+       }
+    }
+
+}
+/*  HEADER RESPONSIVE STYLE END */
 
 /* HEADER STYLE END */

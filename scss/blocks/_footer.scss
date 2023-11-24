@@ -70,3 +70,39 @@
     opacity: .7;
 }
 /* FOOTER STYLE END */ 
+
+/* FOOTER RESPONSIVE STYLE START */ 
+@media only screen and (max-width: 576px){
+    .site-footer{
+        padding-top: 30px;
+
+        &__wrapper-start{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__link-logo{
+            margin-bottom: 37px;
+        }
+
+        &__nav-list{
+            text-align: center;
+        }
+
+        &__contact{
+            text-align: center;
+        }
+
+        &__wrapper-end{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__network-list{
+            margin-right: 0;
+        }
+    }
+
+
+}
+/* FOOTER RESPONSIVE STYLE END */ 

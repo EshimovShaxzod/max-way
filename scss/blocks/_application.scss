@@ -1,11 +1,12 @@
+/* APPLICATION STYLE START */ 
 .application{
     width: 100%;
-    padding: 75px 94px;
+    padding: 75px 0 94px 0;
     background-image: url("../assets/images/application-bg.png"), url('../assets/images/application-bg.svg');
     background-position: calc(50% + 300px) -135px, calc(50% + 500px);
     background-repeat: no-repeat;
     background-color: $backgroundSecondary;
-
+    
     &-title{
         width: 100%;
         max-width: 581px;
@@ -14,7 +15,7 @@
         font-size: 52px;
         font-weight: 700;
     }
-
+    
     &-list{
         &__item{
             border-radius: 46px;
@@ -25,10 +26,42 @@
             border: none;
             backdrop-filter: blur(13.591408729553223px);
             border: 1px solid rgba(255, 255, 255, 0.29);
-
+            
             &-logo{
                 margin-right: 13px;
             }
         }
     }
 }
+/* APPLICATION STYLE END */ 
+
+/* APPLICATION RESPONSIVE STYLE START */ 
+@media only screen and (max-width: 576px){
+    .application{
+        padding: 75px 0 94px 0;
+        background-image: url("../assets/images/application-bg.png"), url('../assets/images/application-bg.svg');
+        background-position: calc(50%) -25px, calc(50% + 50px) 100px;
+        background-size: contain , contain;
+
+        &-title{
+            padding-top: 220px;
+            margin-bottom: 24px;
+            font-size: 36px;
+            line-height: normal; 
+            text-align: center;
+        }
+
+        &-list{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            &__item{
+                margin-bottom: 20px;
+                width: 90%;
+            }
+        }
+    }
+}
+/* APPLICATION RESPONSIVE STYLE END */ 
+

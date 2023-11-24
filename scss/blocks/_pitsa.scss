@@ -2,40 +2,40 @@
 .pitsa{
     width: 100%;
     margin-bottom: 105px;
-
+    
     &-title{
         margin-bottom: 30px;
         color: $colorPrimary;
         font-size: 52px;
         font-weight: 700;
     }
-
+    
     &-list{
         display: flex;
         flex-wrap: wrap;
         padding-left: 0;
-
+        
         &__item{
             @include sweets-item;
-
+            
             &-pic{
-               @include sweets-pic
+                @include sweets-pic
             }
         }
-
+        
         &__info{
             &-title{
                 @include sweets-title
             }
-
+            
             &-desc{
                 @include sweets-desc
             }
-
+            
             &-num{
                 @include sweets-num
             }
-
+            
             &-add{
                 @include sweets-add
             }
@@ -43,3 +43,47 @@
     }
 }
 /* PITSA STYLE END  */ 
+
+/* PITSA STYLE RESPONSIVE START  */
+@media only screen and (max-width:576px){
+    
+    .pitsa{
+        margin-bottom: 45px;
+        
+        &-title{
+            margin-bottom: 11px;
+            font-size: 36px;
+            line-height: normal; 
+            text-align: center;
+        }
+        
+        &-list__item{
+            @include sweets-item__responsive;
+            
+            &-pic{
+                @include sweets-pic__responsive
+            }
+        }
+        
+        &-list__info{
+            
+            &-title{
+              @include  sweets-title__responsive
+            }
+            
+            &-desc{
+                @include sweets-desc__responsive
+            }
+            
+            &-num{
+                 @include sweets-num__responsive;
+            }
+
+            &-add{
+               @include sweets-add__responsive
+            }
+        }
+    }
+}
+
+/* PITSA STYLE RESPONSIVE END  */

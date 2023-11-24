@@ -1,14 +1,14 @@
 /* SWEETS TYPES STYLE START */
 .swetsTypes{
     padding-top: 80px;
-
+    
     &-list{
         padding-left: 0;
         padding-top: 40px;
         margin-bottom: 140px;
         border-top: 1px solid #ddd;
     }
-
+    
     &-list__item{
         &-btn{
             padding: 15px 27px;
@@ -19,7 +19,7 @@
             border: none;
             background-color: #fff;
         }
-
+        
         &-btn:nth-child(8){
             background-color: #F5F5F5; 
         }
@@ -31,3 +31,36 @@
     background-color: #F1B301;
 }
 /* SWEETS TYPES STYLE END */
+
+/* SWEETS TYPES RESPONSIVE STYLE START */ 
+@media only screen and (max-width:576px){
+    
+    .swetsTypes{
+        margin-bottom: 40px;
+
+        &-list{
+            margin-bottom: 0;
+        }
+        
+        &-list__item{
+            margin-bottom: 20px;
+            text-align: center;
+
+            &-btn:nth-child(4){
+                display: none;
+            }
+
+            &-btn:nth-child(5){
+                display: none;
+            }
+
+            &-btn:nth-child(6){
+                display: none;
+            }
+            
+        }
+
+        
+    }
+}
+    /* SWEETS TYPES RESPONSIVE STYLE END */ 

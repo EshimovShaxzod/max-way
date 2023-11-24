@@ -7,6 +7,10 @@
     opacity: .4;
 }
 
+@mixin sweets-desc__responsive{
+    padding-right: 0;
+}
+
 @mixin sweets-add{
     display: flex;
     align-items: center;
@@ -20,6 +24,11 @@
     color: #fff;
 }
 
+@mixin sweets-add__responsive{
+    width: 35px;
+    height: 35px;
+}
+
 @mixin sweets-item{
     display: flex;
     width: 100%;
@@ -30,6 +39,10 @@
     border: 1px solid rgba(151, 151, 151, 0.18);
 }
 
+@mixin sweets-item__responsive{
+    padding: 20px;
+}
+
 @mixin sweets-title{
     margin: 0;
     margin-bottom: 10px;
@@ -38,16 +51,36 @@
     font-weight: 500;
 }
 
+@mixin sweets-title__responsive{
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal; 
+}
+
 @mixin sweets-num{
     color: #222124;
     font-size: 24px;
     font-weight: 700;
 }
 
+@mixin sweets-num__responsive{
+    margin-top: 9px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
 @mixin sweets-pic{
     width: 180px;
     height: 180px;
     margin-right: 41px;
+}
+
+@mixin sweets-pic__responsive{
+    width: 127px;
+    height: 127px;
+    margin-right: 28px;
 }
 
 @mixin footer-title{
