@@ -344,4 +344,68 @@ a {
   color: #fff;
 }
 
-/* BURGER STYLE END  *//*# sourceMappingURL=main.css.map */
+/* BURGER STYLE END  */
+/* KOMBO STYLE START  */
+.kombo {
+  width: 100%;
+  margin-bottom: 105px;
+}
+.kombo-title {
+  margin-bottom: 30px;
+  color: #222124;
+  font-size: 52px;
+  font-weight: 700;
+}
+.kombo-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.kombo-list__item {
+  display: flex;
+  width: 100%;
+  max-width: 540px;
+  margin-bottom: 30px;
+  padding: 30px 30px 20px 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(151, 151, 151, 0.18);
+}
+.kombo-list__item-pic {
+  width: 180px;
+  height: 180px;
+  margin-right: 41px;
+}
+.kombo-list__info-title {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #222124;
+  font-size: 24px;
+  font-weight: 500;
+}
+.kombo-list__info-desc {
+  padding-right: 20px;
+  margin-bottom: 13px;
+  color: #222124;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.4;
+}
+.kombo-list__info-num {
+  color: #222124;
+  font-size: 24px;
+  font-weight: 700;
+}
+.kombo-list__info-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  border: none;
+  background-color: #F1B301;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* KOMBO STYLE END  *//*# sourceMappingURL=main.css.map */
