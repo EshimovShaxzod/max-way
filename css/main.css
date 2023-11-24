@@ -412,7 +412,8 @@ a {
 /* KOMBO STYLE START  */
 .drinks {
   width: 100%;
-  margin-bottom: 173px;
+  padding-bottom: 173px;
+  background-color: #fff;
 }
 .drinks-title {
   margin-bottom: 30px;
@@ -472,4 +473,34 @@ a {
   color: #fff;
 }
 
-/* KOMBO STYLE END  *//*# sourceMappingURL=main.css.map */
+/* KOMBO STYLE END  */
+.application {
+  width: 100%;
+  padding: 75px 94px;
+  background-image: url("../assets/images/application-bg.png"), url("../assets/images/application-bg.svg");
+  background-position: calc(50% + 300px) -135px, calc(50% + 500px);
+  background-repeat: no-repeat;
+  background-color: #800A7A;
+}
+.application-title {
+  width: 100%;
+  max-width: 581px;
+  margin-bottom: 63px;
+  color: #FFF;
+  font-size: 52px;
+  font-weight: 700;
+}
+.application-list__item {
+  border-radius: 46px;
+  padding: 10px 31px;
+  color: #fff;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  -webkit-backdrop-filter: blur(13.5914087296px);
+          backdrop-filter: blur(13.5914087296px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+}
+.application-list__item-logo {
+  margin-right: 13px;
+}/*# sourceMappingURL=main.css.map */

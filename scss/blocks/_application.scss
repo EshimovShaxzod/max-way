@@ -1,0 +1,34 @@
+.application{
+    width: 100%;
+    padding: 75px 94px;
+    background-image: url("../assets/images/application-bg.png"), url('../assets/images/application-bg.svg');
+    background-position: calc(50% + 300px) -135px, calc(50% + 500px);
+    background-repeat: no-repeat;
+    background-color: $backgroundSecondary;
+
+    &-title{
+        width: 100%;
+        max-width: 581px;
+        margin-bottom: 63px;
+        color: #FFF;
+        font-size: 52px;
+        font-weight: 700;
+    }
+
+    &-list{
+        &__item{
+            border-radius: 46px;
+            padding: 10px 31px;
+            color: #fff;
+            font-size: 18px;
+            background-color: transparent;
+            border: none;
+            backdrop-filter: blur(13.591408729553223px);
+            border: 1px solid rgba(255, 255, 255, 0.29);
+
+            &-logo{
+                margin-right: 13px;
+            }
+        }
+    }
+}
