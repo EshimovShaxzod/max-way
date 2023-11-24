@@ -3,6 +3,10 @@
     padding-top: 80px;
     
     &-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
         padding-left: 0;
         padding-top: 40px;
         margin-bottom: 140px;
@@ -39,6 +43,10 @@
         margin-bottom: 40px;
 
         &-list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
             margin-bottom: 0;
         }
         

@@ -29,6 +29,9 @@
     }
     
     &-product{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         
         &__info{
             width: 100%;

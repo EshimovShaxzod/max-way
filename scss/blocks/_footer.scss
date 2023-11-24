@@ -3,6 +3,11 @@
     width: 100%;
     padding: 125px 0 20px 0;
 
+    &__wrapper-start{
+        display: flex;
+        justify-content: space-between;
+    }
+
     &__nav-title{
         @include footer-title
     }
@@ -42,10 +47,16 @@
     }
 
     &__wrapper-end{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding-top: 27px;
     }
 
     &__network-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         margin-right: 60px;
     }
 

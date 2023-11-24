@@ -178,6 +178,11 @@ a {
   font-weight: 400;
   line-height: 32px;
 }
+.hero-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .hero-product__info {
   width: 100%;
   max-width: 255px;
@@ -259,6 +264,10 @@ a {
   padding-top: 80px;
 }
 .swetsTypes-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding-left: 0;
   padding-top: 40px;
   margin-bottom: 140px;
@@ -289,6 +298,10 @@ a {
     margin-bottom: 40px;
   }
   .swetsTypes-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 0;
   }
   .swetsTypes-list__item {
@@ -335,6 +348,11 @@ a {
   width: 180px;
   height: 180px;
   margin-right: 41px;
+}
+.pitsa-list__info-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .pitsa-list__info-title {
   margin: 0;
@@ -440,6 +458,11 @@ a {
   height: 180px;
   margin-right: 41px;
 }
+.burger-list__info-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .burger-list__info-title {
   margin: 0;
   margin-bottom: 10px;
@@ -543,6 +566,11 @@ a {
   width: 180px;
   height: 180px;
   margin-right: 41px;
+}
+.kombo-list__info-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .kombo-list__info-title {
   margin: 0;
@@ -649,6 +677,11 @@ a {
   height: 180px;
   margin-right: 41px;
 }
+.drinks-list__info-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .drinks-list__info-title {
   margin: 0;
   margin-bottom: 10px;
@@ -741,7 +774,14 @@ a {
   font-size: 52px;
   font-weight: 700;
 }
+.application-list {
+  display: flex;
+  align-items: center;
+}
 .application-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 46px;
   padding: 10px 31px;
   color: #fff;
@@ -788,6 +828,10 @@ a {
   width: 100%;
   padding: 125px 0 20px 0;
 }
+.site-footer__wrapper-start {
+  display: flex;
+  justify-content: space-between;
+}
 .site-footer__nav-title {
   margin-bottom: 24px;
   color: #003846;
@@ -825,9 +869,15 @@ a {
   line-height: 24px;
 }
 .site-footer__wrapper-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding-top: 27px;
 }
 .site-footer__network-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-right: 60px;
 }
 .site-footer__network-item {
