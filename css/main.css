@@ -24,6 +24,7 @@ main {
 ol,
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 a {
@@ -503,4 +504,71 @@ a {
 }
 .application-list__item-logo {
   margin-right: 13px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* FOOTER STYLE START */
+.site-footer {
+  width: 100%;
+  padding: 125px 0 20px 0;
+}
+.site-footer__nav-title {
+  margin-bottom: 24px;
+  color: #003846;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.site-footer__nav-item {
+  margin-bottom: 5px;
+  color: #003846;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  cursor: pointer;
+}
+.site-footer__contact-title {
+  margin-bottom: 24px;
+  color: #003846;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.site-footer__contact-num {
+  display: inline-block;
+  margin-bottom: 13px;
+  color: #222124;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.site-footer__contact-location {
+  color: #222124;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.site-footer__wrapper-end {
+  padding-top: 27px;
+}
+.site-footer__network-list {
+  margin-right: 60px;
+}
+.site-footer__network-item {
+  font-size: 24px;
+}
+.site-footer__network-item__link i {
+  color: #6b6b6b;
+}
+.site-footer__network-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.site-small__title {
+  color: #222124;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+/* FOOTER STYLE END *//*# sourceMappingURL=main.css.map */

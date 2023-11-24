@@ -1,0 +1,72 @@
+/* FOOTER STYLE START */ 
+.site-footer{
+    width: 100%;
+    padding: 125px 0 20px 0;
+
+    &__nav-title{
+        @include footer-title
+    }
+
+    &__nav{
+       
+        &-item{
+            margin-bottom: 5px;
+            color: $colorSecondary;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 34px;
+            cursor: pointer;
+        }
+    }
+
+    &__contact{
+        &-title{
+            @include footer-title
+        }
+
+        &-num{
+            display: inline-block;
+            margin-bottom: 13px;
+            color: $colorPrimary;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 33px;
+        }
+
+        &-location{
+            color: $colorPrimary;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    &__wrapper-end{
+        padding-top: 27px;
+    }
+
+    &__network-list{
+        margin-right: 60px;
+    }
+
+    &__network-item{
+        font-size: 24px;
+
+        &__link i{
+            color: #6b6b6b;
+        }
+    }
+
+    &__network-item:not(:last-child){
+        margin-right: 24px;
+    }
+}
+
+.site-small__title{
+    color: $colorPrimary;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: .7;
+}
+/* FOOTER STYLE END */ 
