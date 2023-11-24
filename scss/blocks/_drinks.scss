@@ -1,0 +1,49 @@
+/* KOMBO STYLE START  */ 
+.drinks{
+    width: 100%;
+    margin-bottom: 173px;
+
+    &-title{
+
+        margin-bottom: 30px;
+        color: $colorPrimary;
+        font-size: 52px;
+        font-weight: 700;
+    }
+
+    &-list{
+
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+
+        &__item{
+
+            @include sweets-item;
+
+            &-pic{
+               @include sweets-pic
+            }
+        }
+
+        &__info{
+
+            &-title{
+                @include sweets-title
+            }
+
+            &-desc{
+                @include sweets-desc
+            }
+
+            &-num{
+                @include sweets-num
+            }
+
+            &-add{
+                @include sweets-add
+            }
+        }
+    }
+}
+/* KOMBO STYLE END  */ 
