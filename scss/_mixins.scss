@@ -1,4 +1,5 @@
 @mixin sweets-desc{
+    padding-right: 20px;
     margin-bottom: 13px;
     color: #222124;
     font-size: 14px;
@@ -18,3 +19,34 @@
     border-radius: 50%;
     color: #fff;
 }
+
+@mixin sweets-item{
+    display: flex;
+    width: 100%;
+    max-width: 540px;
+    margin-bottom: 30px;
+    padding: 30px 30px 20px 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(151, 151, 151, 0.18);
+}
+
+@mixin sweets-title{
+    margin: 0;
+    margin-bottom: 10px;
+    color: $colorPrimary;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@mixin sweets-num{
+    color: #222124;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@mixin sweets-pic{
+    width: 180px;
+    height: 180px;
+    margin-right: 41px;
+}
+
