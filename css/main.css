@@ -193,6 +193,7 @@ a {
   padding-top: 80px;
 }
 .swetsTypes-list {
+  padding-left: 0;
   padding-top: 40px;
   margin-bottom: 140px;
   border-top: 1px solid #ddd;
@@ -215,4 +216,66 @@ a {
   background-color: #F1B301;
 }
 
-/* SWEETS TYPES STYLE END *//*# sourceMappingURL=main.css.map */
+/* SWEETS TYPES STYLE END */
+/* PITSA STYLE START  */
+.pitsa {
+  width: 100%;
+}
+.pitsa-title {
+  margin-bottom: 30px;
+  color: #222124;
+  font-size: 52px;
+  font-weight: 700;
+}
+.pitsa-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.pitsa-list__item {
+  display: flex;
+  width: 100%;
+  max-width: 540px;
+  margin-bottom: 30px;
+  padding: 30px 30px 20px 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(151, 151, 151, 0.18);
+}
+.pitsa-list__item-pic {
+  width: 180px;
+  height: 180px;
+  margin-right: 41px;
+}
+.pitsa-list__info-title {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #222124;
+  font-size: 24px;
+  font-weight: 500;
+}
+.pitsa-list__info-desc {
+  margin-bottom: 13px;
+  color: #222124;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.4;
+}
+.pitsa-list__info-num {
+  color: #222124;
+  font-size: 24px;
+  font-weight: 700;
+}
+.pitsa-list__info-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  border: none;
+  background-color: #F1B301;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* PITSA STYLE END  *//*# sourceMappingURL=main.css.map */
