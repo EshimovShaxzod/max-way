@@ -31,7 +31,6 @@
     &-product{
         display: flex;
         align-items: center;
-        justify-content: space-between;
         
         &__info{
             width: 100%;
@@ -45,6 +44,7 @@
                 font-size: 16px;
                 font-weight: 500;
                 border-radius: 19px;
+                border: none;
                 background: rgba(255, 255, 255, 0.20);
             }
             

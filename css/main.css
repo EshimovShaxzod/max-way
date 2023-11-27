@@ -181,7 +181,6 @@ a {
 .hero-product {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .hero-product__info {
   width: 100%;
