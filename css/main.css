@@ -194,6 +194,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   border-radius: 19px;
+  border: none;
   background: rgba(255, 255, 255, 0.2);
 }
 .hero-product__info-desc {
@@ -793,6 +794,9 @@ a {
 }
 .application-list__item-logo {
   margin-right: 13px;
+}
+.application-list__item:first-child {
+  margin-right: 20px;
 }
 
 /* APPLICATION STYLE END */
